@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation burger</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Animation hamburger</h1>
+    <div class="container">
+        <div class="box">
+            <div class="contLigne btn1">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="contLigne btn2">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="contLigne btn3">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="contLigne btn4">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="contLigne btn5">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="contLigne btn6">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="contLigne btn7">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="contLigne btn8">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div>
+        <!-- <div class="box">
+            <div class="contLigne btn9">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="contLigne btn10">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="contLigne btn11">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="contLigne btn12">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div> -->
+
+
+        <script>
+            //On cree un tableau qui choppe tous les boutons de la page
+            const allBtn = document.querySelectorAll('.contLigne');
+            //Pour chaque bouton
+            allBtn.forEach(btn => {
+                //On se met en veille pour un clic
+                btn.addEventListener('click', () => {
+                    //on rend la classe active quand on clique dessus
+                    btn.classList.toggle('active');
+                })
+            })
+        </script>
+
+</body>
+
+</html>

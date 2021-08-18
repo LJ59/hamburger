@@ -217,6 +217,11 @@ h1 {
     transform: rotate(45deg);
 }
 
+.btn5.active .lignes:nth-child(1) {
+    opacity: 0;
+
+}
+
 .btn7::before {
     content: "";
     position: absolute;

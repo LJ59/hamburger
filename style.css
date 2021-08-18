@@ -217,7 +217,8 @@ h1 {
     transform: rotate(45deg);
 }
 
-.btn5.active .lignes:nth-child(1) {
+.btn7.active .lignes:nth-child(1) {
+    transition: none;
     opacity: 0;
 
 }

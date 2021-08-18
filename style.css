@@ -220,8 +220,17 @@ h1 {
 .btn7.active .lignes:nth-child(1) {
     transition: none;
     opacity: 0;
-
 }
+.btn7.active .lignes:nth-child(2) {
+    transition: none;
+    opacity: 0;
+}
+.btn7.active .lignes:nth-child(3) {
+    transition: none;
+    opacity: 0;
+}
+
+
 
 .btn7::before {
     content: "";
